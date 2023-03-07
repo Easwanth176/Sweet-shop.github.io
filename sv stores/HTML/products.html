@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/product.css" />
+    <title>PRODUCTS</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row1">
+        <div class="rows">
+          <div class="column-1" style="background-color: #fff">
+            <img src="/IMAGES/bajji.jpeg" class="image" />
+          </div>
+          <div class="column-2" style="background-color: #fff">
+            <h2>Baji</h2>
+            <p class="sub">
+              a speacial dish of Andhra Pradesh, it is a deep fried snack made
+            </p>
+            <p>₹ 10</p>
+            <p class="star">&#9733; &#9733; &#9733; &#9733;&#9734;</p>
+            <div class="butn">
+              <button id="decrement" onclick="stepper(this)">-</button>
+              <input
+                type="number"
+                min="0"
+                max="100"
+                step="1"
+                value="0"
+                id="my-input"
+                readonly
+              />
+              <button id="increment" onclick="stepper(this)">+</button>
+            </div>
+            <script src="/JS/product.js"></script>
+          </div>
+        </div>
+      </div>
+
+      <div class="row1">
+        <div class="rows">
+          <div class="column-1" style="background-color: #fff">
+            <img src="/IMAGES/jilebi.jpg" class="image" />
+          </div>
+          <div class="column-2" style="background-color: #fff">
+            <h2>Jilebi</h2>
+            <div class="sub">
+              a sweet dish of Andhra Pradesh, it is a deep fried snack made
+            </div>
+            <p class="star">&#9733; &#9733; &#9733; &#9733;&#9734;</p>
+            <p>₹ 10</p>
+            <div class="butn">
+              <button id="decrement" onclick="stepper(this)">-</button>
+              <input
+                type="number"
+                min="0"
+                max="100"
+                step="1"
+                value="0"
+                id="my-input"
+                readonly
+              />
+              <button id="increment" onclick="stepper(this)">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row1">
+        <div class="rows">
+          <div class="column-1" style="background-color: #fff">
+            <img src="/IMAGES/onion.jpg" class="image" />
+          </div>
+          <div class="column-2" style="background-color: #fff">
+            <h2>Onion Baji</h2>
+            <div class="sub">
+              a speacial dish of Andhra Pradesh, it is a deep fried snack made
+            </div>
+            <p class="star">&#9733; &#9733; &#9733; &#9733;&#9734;</p>
+            <p>₹ 10</p>
+            <div class="butn">
+              <button id="decrement" onclick="stepper(this)">-</button>
+              <input
+                type="number"
+                min="0"
+                max="100"
+                step="1"
+                value="0"
+                id="my-input"
+                readonly
+              />
+              <button id="increment" onclick="stepper(this)">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rows">
+        <div class="column-1" style="background-color: #ffff">
+          <img src="/IMAGES/punugu.jpg" class="image" />
+        </div>
+        <div class="column-2" style="background-color: #fff">
+          <h2>Punugu</h2>
+          <div class="sub">
+            a speacial dish of Andhra Pradesh, it is a deep fried snack made
+          </div>
+          <p class="star">&#9733; &#9733; &#9733; &#9733;&#9734;</p>
+          <p>₹ 10</p>
+          <div class="butn">
+            <button id="decrement" onclick="stepper(this)">-</button>
+            <input
+              type="number"
+              min="0"
+              max="100"
+              step="1"
+              value="0"
+              id="my-input"
+              readonly
+            />
+            <button id="increment" onclick="stepper(this)">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form action="/HTML/address.html">
+      <button class="button button3" formnovalidate>Place order</button>
+    </form>
+  </body>
+</html>
